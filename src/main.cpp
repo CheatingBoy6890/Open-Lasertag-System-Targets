@@ -1,3 +1,12 @@
+/*
+Copyright (c) 2024, Silas Hille and Linus Hille
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree.
+
+*/
+
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 
@@ -101,7 +110,7 @@ void animation()
   Serial.print("Changing pixel:");
   Serial.println(a1[((LedTask.getRunCounter()) % 27)]);
 
-  strip.setPixelColor(a1[(LedTask.getRunCounter() % 26)], ((0xFFFFFF/12)*(LedTask.getRunCounter()%30))%0xFFFF );
+  strip.setPixelColor(a1[(LedTask.getRunCounter() % 26)], ((0xFFFFFF / 12) * (LedTask.getRunCounter() % 30)) % 0xFFFF);
   strip.setBrightness(255);
   strip.show();
   if (!(LedTask.getRunCounter() % 27))
