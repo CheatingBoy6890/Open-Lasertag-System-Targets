@@ -24,6 +24,4 @@ The targets connect together into a mesh that is seperated from the tagger mesh.
 13. Connect all GND cables to your GND Pin of your ESP
 14. Connect the output of the sensor to D7
 15. Connect the data line of your LED strip to D5
-16. 
-17. 
-18. 
+
