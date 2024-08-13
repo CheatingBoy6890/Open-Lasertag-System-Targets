@@ -1,6 +1,7 @@
 # Open-Lasertag-System
 
-![_DSC8902](https://github.com/user-attachments/assets/2fc5b138-46ba-4c61-b85c-79018dc33adf)
+![image](https://github.com/user-attachments/assets/45d1c4ad-ff7e-4672-bb15-d09169930126)
+
 
 ---
 
@@ -36,3 +37,4 @@ This is the repository for the targets of the system. By the time of writing the
 - Cables
 - A soldering iron
 - A saw.
+- A bit of black paint
